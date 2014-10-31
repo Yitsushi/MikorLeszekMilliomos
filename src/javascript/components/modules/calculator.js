@@ -85,12 +85,6 @@ App.Module.Section.Calculator = React.createClass({
             ),
             " éves leszel."
           ]
-        ),
-        React.DOM.div(
-          { className: "share-line" },
-          [
-            React.DOM.div({id: "fb-root"})
-          ]
         )
       ]
     );
