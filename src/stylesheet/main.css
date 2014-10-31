@@ -101,3 +101,10 @@ input:focus {
   text-align: center;
   padding-top: 2em;
 }
+
+.fb-share-button {
+  position:relative;
+  top: -4px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
