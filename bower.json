@@ -1,0 +1,21 @@
+{
+  "name": "MikorLeszekMilliomos",
+  "version": "0.0.0",
+  "authors": [
+    "Balazs Nadasdi <yitsushi@gmail.com>"
+  ],
+  "description": "Mikor leszek milliomos?",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://milliomos.folyam.info/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.12.0"
+  }
+}
