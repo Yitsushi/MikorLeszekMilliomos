@@ -1,5 +1,9 @@
 /* global App */
 
+App.Util.toPriceFormat = function(value) {
+  return value + " HUF";
+};
+
 App.Util.GenerateRandomId = function() {
   var text = "";
   var possible = "abcdefghijklmnopqrstuvwxyz0123456789";

@@ -13,7 +13,8 @@ App.Page.Main = React.createClass({
         [
           "Mikor leszek milliomos?"
         ]
-      )
+      ),
+      App.Module.Section.Calculator()
     ]);
   }
 });

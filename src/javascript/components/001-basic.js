@@ -1,5 +1,8 @@
 var App = {
   Page: {},
-  Module: {},
+  Module: {
+    Section: {},
+    Form: {}
+  },
   Util: {}
 };
