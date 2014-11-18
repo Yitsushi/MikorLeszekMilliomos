@@ -20,13 +20,11 @@ App.Util.getHtmlParam = function(param) {
 };
 
 App.Util.EventSystem = (function() {
-  var self = this;
-
-  self.queue = {};
+  var eventQueue = {};
 
   return {
     publish: function (event, data) {
-      var queue = self.queue[event];
+      var queue = eventQueue[event];
 
       if (typeof queue === 'undefined') {
         return false;
@@ -39,11 +37,11 @@ App.Util.EventSystem = (function() {
       return true;
     },
     subscribe: function(event, callback) {
-      if (typeof self.queue[event] === 'undefined') {
-        self.queue[event] = [];
+      if (typeof this.queue[event] === 'undefined') {
+        eventQueue[event] = [];
       }
 
-      self.queue[event].push(callback);
+      eventQueue[event].push(callback);
     }
   };
 }());
